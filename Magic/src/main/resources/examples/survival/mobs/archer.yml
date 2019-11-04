@@ -1,28 +1,23 @@
-archer:
-  type: skeleton
-  item: archer_bow
-  cast_requires_item: archer_bow
+Spirit:
+  type: Stray  
+  item: Iron Sword
+  cast_requires_item: Iron Sword
   chestplate: warlock_chestplate
   leggings: warlock_leggings
-  helmet: chainmail_helmet
+  helmet: warlock_helmet
   boots: warlock_boots
-  name: Archer
-  health: 150
+  name: Corrupted Spirit
+  health: 200
   default_drops: false
   protection:
-    fall: 1
-  triggers:
+    fall: 5
+  triggers: 
     launch:
       cast:
-        arrow_regular: 50
-        arrow_bomb: 20
-        arrow_blink: 20
-        arrow_poison: 50
-        arrow_fire: 50
-        arrow_ice: 50
-        arrow_light: 10
-        arrow_shock: 10
-        none: 30
+    Lift: 50
+      Shock: 20
+        Blindness: 15
+        Freeze: 25
+       none: 30
   drops:
-  - gold_nugget@16
-  - sp:16
+- sp: 5
